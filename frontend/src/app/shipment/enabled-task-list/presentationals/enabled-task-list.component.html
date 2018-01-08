@@ -2,9 +2,15 @@
   id="task-list-component_enabledTask-table"
   [value]="enabledTaskList"
   selectionMode="single"
-  [(selection)]="selectedEnabledTask"
-  (onRowSelect)="onRowSelect($event)">
+  [(selection)]="selectedEnabledTask">
   <p-column field="trackingId" header="{{'TASK-RESOURCE_INSTANCE_ID' | translate}}"></p-column>
   <p-column field="name" header="{{'TASK-RESOURCE_TASK-NAME' | translate}}"></p-column>
   <p-column field="description" header="{{'TASK-RESOURCE_DESCRIPTION' | translate}}"></p-column>
+  <p-column header="{{'TASK-RESOURCE_ACTIVATE' | translate}}">
+    <ng-template pTemplate="body">
+      <button type="button" pButton (click)="activateTask()" icon="fa-check"></button>
+    </ng-template>
+  </p-column>
+
 </p-dataTable>
+

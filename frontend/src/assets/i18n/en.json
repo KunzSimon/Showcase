@@ -75,6 +75,7 @@
   "TASK-RESOURCE_TASK-NAME": "Task name",
   "TASK-RESOURCE_DESCRIPTION": "Description",
   "TASK-RESOURCE_ASSIGNEE": "Assigned to",
+  "TASK-RESOURCE_ACTIVATE": "Activate task",
   "TASK-LIST-PAGE-COMPONENT-TITLE": "All tasks",
   "ACTIVE-TASK-LIST-TITLE": "Active Tasks",
   "ENABLED-TASK-LIST-TITLE": "Enabled Tasks"
