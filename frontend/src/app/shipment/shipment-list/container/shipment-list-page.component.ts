@@ -72,7 +72,8 @@ export class ShipmentListPageComponent implements OnInit, OnDestroy {
                 shipmentResource => new ShipmentListRowModel(
                     shipmentResource.trackingId,
                     this.formatAddress(shipmentResource.sender.address),
-                    this.formatAddress(shipmentResource.receiver.address))
+                    this.formatAddress(shipmentResource.receiver.address),
+                    shipmentResource.status)
             );
     }
 

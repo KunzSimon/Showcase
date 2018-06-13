@@ -100,5 +100,10 @@
   "ACTIVE-TASK-LIST-TITLE": "Active Tasks",
   "ENABLED-TASK-LIST-TITLE": "Enabled Tasks",
   "SHIPMENT-DETAILS": "Shipment Details",
-  "ACTIVATE-TASK":"Activate"
+  "ACTIVATE-TASK":"Activate",
+  "SHIPMENT_STATUS":"Status",
+  "SHIPMENT_ORDER_INCOMPLETE" : "Shipment order incomplete",
+  "SHIPMENT_ORDER_COMPLETED" : "Shipment order completed",
+  "FLIGHT_DEPARTED" : "Flight departed",
+  "SHIPMENT_COMPLETED" : "Shipment completed"
 }

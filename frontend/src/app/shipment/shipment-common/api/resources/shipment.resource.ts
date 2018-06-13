@@ -12,4 +12,5 @@ export class ShipmentResource {
     public shipmentCargo: Cargo;
     public shipmentServices: ShipmentServices;
     public shipmentFlight: OrganizeFlightResource;
+    public status: string;
 }

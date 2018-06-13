@@ -100,5 +100,10 @@
   "ACTIVE-TASK-LIST-TITLE": "Aktive Aufgaben",
   "ENABLED-TASK-LIST-TITLE": "Aktivierbare Aufgaben",
   "SHIPMENT-DETAILS": "Transportinformationen",
-  "ACTIVATE-TASK":"Aktivieren"
+  "ACTIVATE-TASK":"Aktivieren",
+  "SHIPMENT_STATUS":"Status",
+  "SHIPMENT_ORDER_INCOMPLETE" : "Shipment order incomplete",
+  "SHIPMENT_ORDER_COMPLETED" : "Shipment order completed",
+  "FLIGHT_DEPARTED" : "Flight departed",
+  "SHIPMENT_COMPLETED" : "Shipment completed"
 }
