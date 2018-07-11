@@ -42,6 +42,7 @@
   "GENERIC_OK": "OK",
   "GENERIC_REFRESH": "Refresh",
   "GENERIC_SAVE": "Save",
+  "INVOICE-INVOICE": "Invoice",
   "INVOICE-CREATE": "Create Invoice",
   "INVOICE-CREATION-DATE": "Invoice date",
   "INVOICE-DISCOUNT": "Discount",
@@ -74,6 +75,7 @@
   "SHIPMENT-RESOURCE_RECEIVER-ADDRESS": "Receiver Address",
   "SHIPMENT-RESOURCE_SENDER-STREET-NUMBER": "Street / No.",
   "SHIPMENT-RESOURCE_RECEIVER-STREET-NUMBER": "Street / No.",
+  "SHIPMENT-RESOURCE_SHIPMENT": "Shipment",
   "SHIPMENT-RESOURCE_SENDER-ZIPCODE-CITY": "ZIP-Code / City",
   "SHIPMENT-RESOURCE_RECEIVER-ZIPCODE-CITY": "ZIP-Code / City",
   "SHIPMENT-RESOURCE_NUMBER-OF_PACKETS": "Number of Packets",
@@ -83,7 +85,7 @@
   "SHIPMENT-RESOURCE_PRE-CARRIAGE": "Pre-Carriage",
   "SHIPMENT-RESOURCE_EXPORT-INSURANCE": "Export Insurance",
   "SHIPMENT-RESOURCE_EXPORT-CUSTOMS": "Export Customs",
-  "SHIPMENT-RESOURCE_FLIGHT": "Flug",
+  "SHIPMENT-RESOURCE_FLIGHT": "Flight",
   "SHIPMENT-RESOURCE_ON-CARRIAGE": "On-Carriage",
   "SHIPMENT-RESOURCE_IMPORT-INSURANCE": "Import Insurance",
   "SHIPMENT-RESOURCE_IMPORT-CUSTOMS": "Import Customs",
@@ -106,5 +108,9 @@
   "SHIPMENT_ORDER_COMPLETED" : "Shipment order completed",
   "FLIGHT_DEPARTED" : "Flight departed",
   "SHIPMENT_COMPLETED" : "Shipment completed",
-  "UNDEFINED" : "Undefined"
+  "UNDEFINED" : "Undefined",
+  "Organize Flight" : "Organize flight",
+  "Create Invoice" : "Create invoice",
+  "Change shipment order" : "Change shipment order",
+  "Complete shipment order" : "Complete shipment order"
 }

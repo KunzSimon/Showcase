@@ -1,7 +1,12 @@
 <p-dataTable
   id="task-list-component_enabledTask-table"
   [value]="enabledTaskList">
-  <p-column field="name" header="{{'TASK-RESOURCE_TASK-NAME' | translate}}"></p-column>
+  <p-column field="name" header="{{'TASK-RESOURCE_TASK-NAME' | translate}}">
+    <ng-template let-col let-task="rowData" pTemplate="body">
+            <span>
+                {{task.name | translate }}
+            </span>
+  </ng-template></p-column>
   <p-column [style]="{'width':'2em'}">
     <ng-template let-enabledTask="rowData" pTemplate="body">
       <i class="fa fa-play-circle fa-lg" style="color:Green" (click)="onRowSelect(enabledTask)" aria-hidden="true"></i>

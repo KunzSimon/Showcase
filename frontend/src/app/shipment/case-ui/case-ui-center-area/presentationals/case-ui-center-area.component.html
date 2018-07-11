@@ -1,6 +1,6 @@
 <div class="shipment-capture-component">
   <p-tabView [activeIndex]="selectedTabIndex">
-    <p-tabPanel class="exampelClass" header="Shipment">
+    <p-tabPanel class="exampelClass" header="{{'SHIPMENT-RESOURCE_SHIPMENT' | translate}}">
       <div *ngIf="selectedTask == 'changeShipment'">
         <router-outlet></router-outlet>
       </div>
@@ -207,7 +207,7 @@
               </p-panel>
             </div>
             <div class="ui-g-12 ui-lg-4 shipment-capture-component_services">
-              <p-panel header="Flight">
+              <p-panel header="{{'SHIPMENT-RESOURCE_FLIGHT' | translate}}">
                 <p-checkbox
                   formControlName="flight"
                   binary="true"
@@ -250,7 +250,7 @@
       </div>
     </p-tabPanel>
 
-    <p-tabPanel header="Flight">
+    <p-tabPanel header="{{'SHIPMENT-RESOURCE_FLIGHT' | translate}}">
       <div *ngIf="selectedTask == 'organizeFlight'">
         <router-outlet></router-outlet>
       </div>
@@ -381,7 +381,7 @@
       </div>
     </p-tabPanel>
 
-    <p-tabPanel header="Invoice">
+    <p-tabPanel header="{{'INVOICE-INVOICE' | translate}}">
       <div *ngIf="selectedTask == 'createInvoice'">
         <router-outlet></router-outlet>
       </div>

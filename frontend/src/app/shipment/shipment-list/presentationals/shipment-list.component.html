@@ -17,7 +17,7 @@
   >
     <ng-template let-col pTemplate="header">
       <p-multiSelect [options]="statuses"
-                     defaultLabel="All Statuses"
+                     defaultLabel="Status"
                      (onChange)="dt.filter($event.value, col.field, 'in')"
       ></p-multiSelect>
     </ng-template>
